@@ -1,0 +1,113 @@
+body {
+	width: 500px;
+	margin: 0 auto;
+	font-family: Verdana;
+	font-size: 20px;
+}
+
+a {
+	color: #02AAB3;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+header {
+	position: relative;
+	border-bottom: 1px solid lightgrey;
+}
+
+header img {
+	float: right;
+	height: 75px;
+}
+header img:hover {
+	height: 135px;
+	z-index: 1;
+	position: absolute;
+	top: -22px;
+	right: -11px;
+	border: 2px solid white;
+}
+
+
+
+section h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+section ul {
+	margin: 0;
+	padding: 0 15px;
+}
+
+section li {
+	margin: 15px 0 15px 15px;
+	list-style-type: none;
+	text-indent: -15px;
+}
+
+section li .tagline {
+	font-size: smaller;
+	color: lightgrey;
+}
+
+
+
+#writings li {
+	margin-left: 30px;
+}
+
+#writings .date {
+	display: inline-block;
+	width: 66px;
+	color: lightgrey;
+	font-size: smaller;
+}
+
+
+
+footer {
+	position: relative;
+	margin-top: 60px;
+	border-top: 1px solid lightgrey;
+}
+
+footer .phone,
+footer .email {
+	float: left;
+	margin-right: 30px;
+	display: inline-block;
+	font-size: small;
+	background-color: white;
+}
+footer .close {
+	display: none;
+}
+
+footer .phone:hover .close,
+footer .email:hover .close {
+	display: inline-block;
+}
+footer .phone:hover .open,
+footer .email:hover .open {
+	display: none;
+}
+footer .phone:hover + p {
+	display: none;
+}
+footer .email:hover {
+	position: absolute;
+	left: 0;
+	width: 200px;
+}
+
+footer blockquote {
+	margin: 0;
+	text-align: right;
+	font-size: small;
+}
