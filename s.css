@@ -79,33 +79,17 @@ footer {
 	border-top: 1px solid lightgrey;
 }
 
-footer .phone,
-footer .email {
+footer #contactdetails {
+	float: left;
+	font-size: small;
+}
+footer #contactdetails a {
 	float: left;
 	margin-right: 15px;
-	display: inline-block;
-	font-size: small;
-	background-color: white;
+	cursor: pointer;
 }
-footer .close {
+footer #contactdetails .close {
 	display: none;
-}
-
-footer .phone:hover .close,
-footer .email:hover .close {
-	display: inline-block;
-}
-footer .phone:hover .open,
-footer .email:hover .open {
-	display: none;
-}
-footer .phone:hover + p {
-	display: none;
-}
-footer .email:hover {
-	position: absolute;
-	left: 0;
-	width: 140px;
 }
 
 footer blockquote {
