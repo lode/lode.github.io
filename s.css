@@ -22,13 +22,14 @@ header {
 
 #avatar {
 	float: right;
+	margin-top: -12px;
 	height: 75px;
 }
-#avatar:hover {
+#avatar.full {
 	height: 135px;
 	z-index: 1;
 	position: absolute;
-	top: -22px;
+	top: -9px;
 	right: -2px; /* border width */
 	border: 2px solid white;
 }
