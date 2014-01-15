@@ -20,11 +20,11 @@ header {
 	border-bottom: 1px solid lightgrey;
 }
 
-header img {
+#avatar {
 	float: right;
 	height: 75px;
 }
-header img:hover {
+#avatar:hover {
 	height: 135px;
 	z-index: 1;
 	position: absolute;
@@ -51,7 +51,7 @@ section li {
 	text-indent: -15px;
 }
 
-section li .tagline {
+section .tagline {
 	display: block;
 	text-indent: 0; /* undo the negative text-indent from the li */
 	color: lightgrey;
@@ -79,20 +79,20 @@ footer {
 	border-top: 1px solid lightgrey;
 }
 
-footer #contactdetails {
+#contactdetails {
 	float: left;
 	font-size: small;
 }
-footer #contactdetails a {
+#contactdetails a {
 	float: left;
 	margin-right: 15px;
 	cursor: pointer;
 }
-footer #contactdetails .close {
+#contactdetails .close {
 	display: none;
 }
 
-footer blockquote {
+#closing_remarks {
 	margin: 0;
 	text-align: right;
 	font-size: small;
