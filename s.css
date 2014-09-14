@@ -19,11 +19,16 @@ header {
 	position: relative;
 	border-bottom: 1px solid lightgrey;
 }
+#tagline {
+	margin-top: -1em;
+	font-size: small;
+}
 
 #avatar {
 	float: right;
 	margin-top: -12px;
 	height: 75px;
+	cursor: pointer;
 }
 #avatar.full {
 	height: 135px;
