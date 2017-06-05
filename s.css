@@ -57,9 +57,11 @@ section li {
 	text-indent: -15px;
 }
 
-section .tagline {
+section br + small {
 	display: block;
 	text-indent: 0; /* undo the negative text-indent from the li */
+}
+section small {
 	color: lightgrey;
 	font-size: small;
 }
