@@ -13,6 +13,10 @@ a:hover {
 	text-decoration: underline;
 }
 
+.collapse:not(.in) {
+	display: none;
+}
+
 
 
 header {
@@ -50,11 +54,19 @@ section ul {
 	margin: 0;
 	padding: 0 15px;
 }
+section ul.inline {
+	font-size: medium;
+}
 
 section li {
 	margin: 15px 0 15px 15px;
 	list-style-type: none;
 	text-indent: -15px;
+}
+section ul.inline li {
+	display: inline-block;
+	margin: 5px;
+	text-indent: 0;
 }
 
 section br + small {
@@ -64,6 +76,10 @@ section br + small {
 section small {
 	color: lightgrey;
 	font-size: small;
+}
+
+section small a {
+	color: lightgrey;
 }
 
 

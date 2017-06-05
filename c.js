@@ -7,6 +7,16 @@ $('header img').on('click', function(){
 	$(this).removeClass().addClass(update);
 });
 
+$('.collapse').each(function(){
+	var container = $(this);
+	var toggler = $('[href="#' + container.attr('id') + '"]');
+	
+	$(toggler).on('click', function(event){
+		event.preventDefault();
+		container.toggleClass('in');
+	});
+});
+
 $('#contactdetails a').on('click', function(){
 	$('#contactdetails a').toggle();
 	
