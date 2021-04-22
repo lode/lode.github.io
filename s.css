@@ -35,7 +35,7 @@ header {
 	cursor: pointer;
 }
 #avatar.full {
-	height: 135px;
+	height: 172px;
 	z-index: 1;
 	position: absolute;
 	top: -9px;
