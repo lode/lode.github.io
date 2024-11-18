@@ -9,12 +9,22 @@ a {
 	color: #02AAB3;
 	text-decoration: none;
 }
-a:hover {
+a:hover,
+a:active {
 	text-decoration: underline;
 }
 
 .collapse:not(.in) {
 	display: none;
+}
+
+a.hidden-link {
+	color: inherit;
+}
+a.hidden-link:hover,
+a.hidden-link:active {
+	text-decoration: none;
+	cursor: default;
 }
 
 
