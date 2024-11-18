@@ -24,7 +24,7 @@ a.hidden-link {
 a.hidden-link:hover,
 a.hidden-link:active {
 	text-decoration: none;
-	cursor: default;
+	cursor: inherit;
 }
 
 
