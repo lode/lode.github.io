@@ -84,12 +84,12 @@ section br + small {
 	text-indent: 0; /* undo the negative text-indent from the li */
 }
 section small {
-	color: lightgrey;
+	color: grey;
 	font-size: small;
 }
 
 section small a {
-	color: lightgrey;
+	color: grey;
 }
 
 section img {
@@ -105,7 +105,7 @@ section img {
 #writings .date {
 	display: inline-block;
 	width: 66px;
-	color: lightgrey;
+	color: grey;
 	font-size: smaller;
 }
 
