@@ -1,6 +1,7 @@
 body {
-	width: 430px;
+	max-width: 430px;
 	margin: 0 auto;
+	padding: 0 0.5em;
 	font-family: Verdana;
 	font-size: 20px;
 }
@@ -126,23 +127,41 @@ footer {
 }
 
 #external li {
-	display: inline-block;
-	padding: 0 10px;
+	display: block;
+	margin: 1em 0;
 }
 
-#contactdetails {
-	float: left;
-}
 #contactdetails a {
-	float: left;
-	margin-right: 15px;
+	display: block;
+	margin: 1em 0;
 	cursor: pointer;
+	text-align: center;
 }
+
 #contactdetails .close {
 	display: none;
 }
 
 #closing_remarks {
 	margin: 0;
-	text-align: right;
+	text-align: center;
+}
+
+@media (min-width: 450px) {
+	#external li {
+		display: inline-block;
+		margin: 0;
+		padding: 0 10px;
+	}
+	#contactdetails {
+		float: left;
+	}
+	#contactdetails a {
+		float: left;
+		margin: 0;
+		margin-right: 15px;
+	}
+	#closing_remarks {
+		text-align: right;
+	}
 }
